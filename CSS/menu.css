@@ -1,0 +1,39 @@
+#Menu{
+    background-color: #23631F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+#Menu .principal{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-right: 1px solid white;
+    transition: background-color 0.3s;
+}
+#Recipiente{
+    display: flex;
+}
+
+#Menu a {
+    transition: background-color 0.3s ease;
+}
+
+#Recipiente a:hover{
+    background: #009504;
+    font-size: larger;
+    font-weight: bold;
+   
+}
+
+#fecha{
+line-height: 30px;
+color: white;
+font-weight: bold;
+font-size: 12px;
+letter-spacing: -1px;
+float: right;
+}

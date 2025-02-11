@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Priscilla Sánchez" />
+    <link rel="stylesheet" type="text/css" href="css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/diseño.css" />
+    <title>Tarea 3 Priscilla </title>
+</head>
+<body>
+    
+
+    <div id="Externo">
+
+        <header id="header">
+            <div class="header-content">
+                <div id="logo">
+                    <img src="Imagenes/Logo Viewport.jpg" width="250"  >
+                    <h1>Diseño de Web Reponsivo</h1>
+
+            </div>
+
+            </div>
+            
+            <p id="Introduccion">El diseño web responsivo permite que los sitios se adapten a diferentes dispositivos y tamaños de pantalla, mejorando la experiencia del usuario. Se logra mediante CSS3 Media Queries, el uso del viewport y estructuras flexibles como Grid y Flexbox. <br>
+
+                Bootstrap 5 es un framework CSS que facilita la creación de sitios responsivos con componentes predefinidos, como el Grid System, Flex, Carousel y Navbar, optimizando el desarrollo web moderno.</p>
+
+<!--Navegacion Principal-->
+
+        </header>
+       
+        <nav id="Menu">
+            <div id="Recipiente">
+                <a class="principal" href="#web-responsive" data-section="web-responsive">Web Responsivo</a>
+                <a class="principal" href="#viewport" data-section="viewport">Viewport</a>
+                <a class="principal" href="#CSS3-Media-Queries" data-section="CSS3-Media-Queries">CSS3 Media Queries</a>
+                <a class="principal" href="#Bootstrap5" data-section="Bootstrap5">Bootstrap 5</a>
+            </div>
+            <div id="fecha"></div>
+            <script>document.getElementById("fecha").innerHTML=new Date.toDateString()</script>
+            
+        </nav>
+
+        <main id="contenidoprincipal">
+
+        <!-- Web Responsive-->
+
+            <div id="web-responsive" class="content-section active">
+                <aside class="aside">
+                    <div class="contenido">
+                        <img src="Imagenes/WebReponsive.webp" class="ImagenWebReponsive1" width="350" >
+                    </div>
+
+                </aside>
+                    
+
+                        <article class="Inicio">
+                            <div class="header">
+                                <h3>Diseño Web Responsivo</h3>
+                            </div>
+                        </article>
+
+                        <article class="Inicio">
+                            <h3>¿Que es Web Reponsive?</h3>
+                            <br>
+                            <p>Es el diseño web que, de forma automatica se adapta a los diferentes pantallas <br> de dispositivos electronicos, como son las computadoras,PCs, Smarthphones,TVs, entre otros. Este permite detectar el ancho de las pantallas,asi redimencionando y colocnado los distintos elementos que conforman la web. </p>
+                            <br>
+
+                        </article>
+
+                     
+                <article class="Inicio">
+                    <div class="header">
+                        <h3>Importancia en la Actualidad y su impacto en la 
+                            experiencia del usuario</h3>
+                    </div>
+                    <div class="contenido">
+                        <br>
+                        <p>Hoy en día, los usuarios acceden a la web en gran variedad de dispositivos, por lo cual se necesita que la pagina se pueda adaptar a dichos anchos de panatallas. <br> Mas de la mayorida de los accesos a sitios se realizan en los Smarthphones. <br> Esto le ayuda a que el usuario tenga ujna mayor experiencia.</p>
+                        <br>
+                        <p>El diseño reponsivo a impactado de gran manera a los usuarios, como lo es: <br>
+                            <ul>
+                                <li>Mejorando la navegación  </li>
+                                <li>Aumentando la probabilidad de que los usuarios permanezcan más tiempo en el sitio <br> y realicen acciones deseadas, como compras o suscripciones  </li>
+                                <li>Sea más rapido la carga de dichas paginas en dispositivos moviles</li>
+                                <li>SEO ayudan alcanzar una exelente experiencia </li>
+
+
+                            </ul>
+                            <br>
+
+                    </div>
+
+
+
+                </article>
+
+                <article class="Inicio">
+                    <div class="header">
+                        <h3>Principios básicos del diseño adaptable y su relevancia en un mundo 
+                            digital diverso</h3>
+                    </div>
+                    <div class="contenido">
+                        <br>
+                        <p>El diseño web responsivo se basa en varios principios fundamentales que aseguran su <br> </p>
+                        <ul>
+                            <ol>
+                                <li>Diseños de cuadricula fluida: Ayudando a organizar, diseñar la información </li>
+                                <li>Imágenes Flexibles: Las imagenes deben escalarse y adaptarse en los diferentes tamaños de pantalla</li>
+                                <li>Consultas de medios CSS:L Formas de aplicar diferentes estilos a un sitio web</li>
+
+                            </ol>
+
+                        </ul>
+                    
+
+                    </div>
+
+                </article>
+                <div class="Galeria-Imagenes">
+                    <div class="imagenWR">
+                        <img src="Imagenes/WebReponsive1.webp" width="400">
+                    </div>
+                    <div class="imagenWR">
+                        <img src="Imagenes/WebReponsive2.webp" width="400">
+                    </div>
+            
+                    
+            
+                </div>
+
+
+
+            </div>
+
+            <!-- ViewPort -->
+            <div id="viewport" class="content-section">
+                <aside class="aside">
+                    <div class="contenido">
+                        <img src="Imagenes/Viewport.png" class="ImagenViewport1" width="350" >
+                    </div>
+
+                </aside>
+                <article class="Inicio">
+                    <h3>¿Qué es Viewport?</h3>
+                    <br>
+                    <p>El viewport es el área visible de una página web para el usuario. En dispositivos móviles, el viewport puede ser diferente del tamaño de la pantalla</p>
+                </article>
+
+                <article class="Inicio">
+                    <h3>Papel del Viewport en la Visualización Web</h3>
+                    <br>
+                    <p>Este permite el contenido del sitio web, se adapte de manera al ancho de diferentes pantallas</p>
+
+                </article>
+
+                <article class="Inicio">
+                    <h3>Configuración del Viewport en HTML</h3>
+                    <br>
+                    <p>Este es configurado por medio de la etiqueta meta, en HTML. Esta etiqueta permite q los desarroladores especifiquuen como se puede comportar el contenido en distintos dispositivos</p>
+                    <ul>
+                        <ol>
+                            <li>width=device-width: Establece el ancho del viewport igual al ancho de la pantalla del dispositivo.</li>
+                            <li>initial-scale=1.0: Define el nivel inicial de zoom cuando se carga la página. Un valor de 1.0 significa que no habrá zoom inicial.</li>
+                    
+
+
+                        </ol>
+
+
+                    </ul>
+
+
+                </article>
+                <div class="Galeria-Imagenes">
+                    <div >
+                        <img src="Imagenes/Viewport2.jpg" width="400">
+                    </div>
+                    <div class="imagenVW">
+                        <img src="Imagenes/ViewportConfiguracion.png" width="400">
+                        <br>
+                        <p style="text-align: center;">Configuracion Viewport</p>
+                    </div>
+                    <div >
+                        <img src="Imagenes/Viewport3.png" width="400">
+                        
+                        
+                    </div>
+            
+                    
+            
+                </div>
+
+            </div>
+
+            <div id="CSS3-Media-Queries" class="content-section">
+                <aside class="aside">
+                    <div class="contenido">
+                        <img src="Imagenes/CSS3.png" class="aside" width="300">
+                           
+                    </div>
+
+                </aside>
+
+                <article class="Inicio">
+                    <h3>¿Que es CSS3 Media Queries?</h3>
+                    <br>
+                    <p>Son reglas en CSS, que permite aplicar caracteristicas del dispositos en el que se visualiza un situo web, asi para poder adaptarlo en diferentes dispotivos y tamaños de pantallas.</p>
+
+                </article>
+
+                <article class="Inicio">
+                    <h3>¿Por qué son esenciales el uso de media queries  para adaptar el 
+                        diseño de un sitio web a distintos dispositivos?</h3>
+                    <br>
+                    <p>Le permiten aplicar estilos CSS según el tipo general de un dispositivola cual hacen que la pagina sea responsivo, asi adapatandose automaticamente a distintos tamaños de pantallas.</p>
+
+
+                </article>
+                <br>
+                <h3>Ejemplos de uso Media Queries</h3>
+                <div class="Galeria-Imagenes">
+                    <div >
+                        <img src="Imagenes/EjemplosMediaQueries1.png" width="400">
+                        <br>
+                        <p style="text-align: center;">Adaptacion a Dispositivos Moviles</p>
+                    </div>
+                    <div class="imagenVW">
+                        <img src="Imagenes/EjemplosMediaQueries2.png" width="400">
+                        <br>
+                        <p style="text-align: center;">Orientacion de pantallas</p>
+                    </div>
+                    <div >
+                        <img src="Imagenes/EjemplosMediaQueries3.png" width="400">
+                        <br>
+                        <p style="text-align: center;">Resolusiones de pantallas específicas</p>
+                        
+                        
+                    </div>
+
+                    <div id="Bootstrap5" class="content-section">
+
+
+                    </div>
+                
+
+
+            </div>
+
+
+
+        </main>
+
+    </div>
+    
+    <footer class="pie">
+            <credit>&copy; Derechos Reservados ISW-DAW UTN I-2025 </credit>
+            <div id="date">Feb 10,2025</div>
+        <script>
+            document.getElementById("date").innerHTML = new Date().toDateString()
+        </script>
+        
+        </footer> 
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mostrar la fecha en el footer
+            document.getElementById("fecha").innerHTML = new Date().toDateString();
+            document.getElementById("date").innerHTML = new Date().toDateString();
+
+            // Manejo de menú y navegación entre secciones
+            const menuLinks = document.querySelectorAll('#Recipiente .principal');
+            const contentSections = document.querySelectorAll('.content-section');
+
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    // Ocultar todas las secciones
+                    contentSections.forEach(section => {
+                        section.classList.remove('active');
+                    });
+
+                    // Mostrar la sección seleccionada
+                    const sectionId = this.getAttribute('data-section');
+                    document.getElementById(sectionId).classList.add('active');
+
+                    // Resaltar el menú activo
+                    menuLinks.forEach(menuLink => {
+                        menuLink.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+   
+
+   
+
+    
+</body>
+</html>
